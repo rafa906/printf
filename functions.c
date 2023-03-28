@@ -45,7 +45,7 @@ int print_string(va_list types, char buffer[],
 	{
 		str = "(null)";
 		if (precision >= 6)
-			str = " ";
+			str = "      ";
 	}
 
 	while (str[length] != '\0')
@@ -186,31 +186,3 @@ int print_binary(va_list types, char buffer[],
 	}
 	return (count);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
